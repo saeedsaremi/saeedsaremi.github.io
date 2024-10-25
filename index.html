@@ -12,17 +12,29 @@
         h2 { color: #333; }
         ul { list-style-type: none; padding: 0; }
         img { width: 150px; border-radius: 50%; margin-top: 10px; }
+        .bio-box {
+        font-family: Courier, monospace; /* Makes font fixed-width */
+        max-width: 600px;                /* Sets a max width for readability */
+        padding: 15px;                   /* Adds padding inside the box */
+        border: 1px solid #333;          /* Adds a border around the box */
+        border-radius: 8px;              /* Rounds the corners */
+        background-color: #f9f9f9;       /* Adds a subtle background color */
+        margin: 20px auto;               /* Centers the box with auto margins */
+        line-height: 1.6;                /* Adjusts line height for readability */
+    }
     </style>
 </head>
 <body>
 
     <h1>Saeed Saremi</h1>
     <img src="images/profile.jpg" alt="Your Name">
-<p style="font-family: Courier, monospace;">
-    Welcome to my personal website! I am a Principal Research Scientist at Prescient Design, Genentech, leading a team in Frontier Research.
-   Previously, I was a researcher at UC Berkeley. I hold a PhD in physics from MIT, with research interests at
-   the intersection of machine learning, statistics, and statistical mechanics.
-</p>
+    <div class="bio-box">
+        <p style="font-family: Courier, monospace;">
+            Welcome to my personal website! I am a Principal Research Scientist at Prescient Design, Genentech, leading a team in Frontier Research.
+           Previously, I was a researcher at UC Berkeley. I hold a PhD in physics from MIT, with research interests at
+           the intersection of machine learning, statistics, and statistical mechanics.
+        </p>
+    </div>
 <!--    I am a [your role or area of expertise]-->
 
     <h2>About Me</h2>
